@@ -40,6 +40,10 @@
         }
     </script>
     <style vid="11">
+        html {
+            overflow-y: scroll;
+        }
+
         body {
             background: linear-gradient(135deg, #FAFCFD 0%, #FFFFFF 50%, #F0F7FA 100%);
         }
@@ -108,7 +112,7 @@
             <p class="text-brand-700 text-sm leading-[1.8] font-light">
             Hiya! I am a first-year PhD student in the 
             <a href="https://cardiffnlp.github.io/" class="underline underline-offset-2 decoration-1 text-brand-700 hover:text-brand-800">CardiffNLP group</a>, supervised by 
-            <a href="https://josecamachocollados.com/" class="underline underline-offset-2 decoration-1 text-brand-700 hover:text-brand-800">Prof Jose Camacho-Collados</a> & 
+            <a href="https://josecamachocollados.com/" class="underline underline-offset-2 decoration-1 text-brand-700 hover:text-brand-800">Prof Jose Camacho-Collados</a> &amp; 
             <a href="https://pilehvar.github.io/" class="underline underline-offset-2 decoration-1 text-brand-700 hover:text-brand-800">Dr Mohammad Taher Pilehvar</a>, and generously funded by Jose's UKRI Future Leaders Fellowship. Happy to chat and explore potential collaborations 🌱
             </p>
         </section>
@@ -277,19 +281,19 @@
             </div>
 
             <div class="space-y-3" vid="135">
-                <div class="flex gap-4" vid="136">
-                    <div class="flex-1 group bg-white border border-brand-100 rounded-2xl p-5 hover:bg-brand-50/50 hover:border-brand-200 transition-colors flex gap-4 items-center" vid="137">
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4" vid="136">
+                    <a href="cats/" class="w-full sm:flex-1 group bg-white border border-brand-100 rounded-2xl p-5 hover:bg-brand-50/50 hover:border-brand-200 transition-colors flex gap-4 items-center" vid="137">
                         <div class="w-9 h-9 shrink-0 rounded-xl bg-brand-50 border border-brand-100 flex items-center justify-center text-brand-500" vid="138">
                             <i class="ph-fill ph-cat text-base" vid="139"></i>
                         </div>
                         <h4 class="font-heading font-bold text-sm text-brand-900" vid="140">Cats with Me</h4>
-                    </div>
-                    <div class="flex-1 group bg-white border border-brand-100 rounded-2xl p-5 hover:bg-brand-50/50 hover:border-brand-200 transition-colors flex gap-4 items-center" vid="141">
+                    </a>
+                    <a href="mayday/" class="w-full sm:flex-1 group bg-white border border-brand-100 rounded-2xl p-5 hover:bg-brand-50/50 hover:border-brand-200 transition-colors flex gap-4 items-center" vid="141">
                         <div class="w-9 h-9 shrink-0 rounded-xl bg-brand-50 border border-brand-100 flex items-center justify-center text-brand-500" vid="142">
                             <i class="ph-fill ph-music-notes text-base" vid="143"></i>
                         </div>
                         <h4 class="font-heading font-bold text-sm text-brand-900" vid="144">Mayday with Me</h4>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -299,8 +303,9 @@
 
         
         <footer vid="146">
-            <p class="text-xs text-brand-400 font-light flex items-center gap-1" vid="147">
-                Last updated: 29 March 2026 © Jingxuan Chen <span class="font-chinese ml-auto text-right" lang="zh-CN" vid="148">「 少年回头望 笑我还不快跟上 」</span>
+            <p class="text-xs text-brand-400 font-light flex flex-col sm:flex-row sm:items-center gap-[5px]" vid="147">
+                <span>Last updated: 29 March 2026 © Jingxuan Chen</span>
+                <span class="font-chinese w-full text-left sm:w-auto sm:ml-auto sm:text-right" lang="zh-CN" vid="148">「 少年回头望 笑我还不快跟上 」</span>
             </p>
         </footer>
 

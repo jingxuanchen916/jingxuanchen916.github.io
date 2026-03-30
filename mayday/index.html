@@ -1,0 +1,193 @@
+<html lang="en" vid="0"><head vid="1">
+    <meta charset="UTF-8" vid="2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" vid="3">
+    <title vid="4">Mayday with Me - Jingxuan Chen</title>
+    <link rel="icon" type="image/svg+xml" href="../pics/profile.svg?v=2">
+    <link rel="shortcut icon" href="../pics/profile.svg?v=2">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" vid="5">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" vid="6">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&amp;family=Quicksand:wght@400;500;600;700&amp;family=Noto+Sans+SC:wght@400;500;700&amp;display=swap" rel="stylesheet" vid="7">
+    
+    <script src="https://unpkg.com/@phosphor-icons/web" vid="8"></script>
+    <script src="https://cdn.tailwindcss.com/3.4.17" vid="9"></script>
+    
+    <script vid="10">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#F4FAFC',  
+                            100: '#E5F3F8', 
+                            200: '#C7E4EE', 
+                            300: '#A1D1E1', 
+                            400: '#75BBCE', 
+                            500: '#359EBF', 
+                            600: '#2A7E99', 
+                            700: '#205E73', 
+                            800: '#153F4C', 
+                            900: '#0A2026', 
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['Quicksand', 'Noto Sans SC', 'sans-serif'],
+                        body: ['Nunito', 'Noto Sans SC', 'sans-serif'],
+                        chinese: ['Hiragino Sans GB', 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style vid="11">
+        html {
+            overflow-y: scroll;
+        }
+
+        body {
+            background: linear-gradient(135deg, #FAFCFD 0%, #FFFFFF 50%, #F0F7FA 100%);
+        }
+        
+        ::-webkit-scrollbar { height: 6px; width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #C7E4EE; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #359EBF; }
+        
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        .font-chinese {
+            font-family: 'Hiragino Sans GB', 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-body text-brand-700 antialiased min-h-screen selection:bg-brand-200 selection:text-brand-900 flex justify-center" vid="12">
+
+    <main class="w-full max-w-4xl px-6 sm:px-12 py-8 sm:py-12 flex flex-col gap-[35px]" vid="13">
+
+        
+        <header class="w-full flex flex-col gap-8" vid="14">
+            <div class="w-full" vid="15">
+                <a href="../" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-500 hover:text-brand-700 transition-all duration-300 group px-3.5 py-2 bg-white rounded-lg border border-brand-100 shadow-[0_1px_2px_rgba(53,158,191,0.05)] w-fit hover:border-brand-200" vid="16">
+                    <i class="ph-bold ph-arrow-left group-hover:-translate-x-0.5 transition-transform" vid="17"></i>
+                    Back to Profile
+                </a>
+            </div>
+            
+            <div class="w-full flex items-center gap-5" vid="18">
+                <div class="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0" vid="19">
+                    <div class="absolute inset-0 rounded-full bg-brand-50 border border-brand-200 shadow-sm" vid="20"></div>
+                    <div class="absolute inset-1 rounded-full bg-white flex items-center justify-center" vid="21">
+                        <i class="ph-fill ph-music-notes text-2xl sm:text-3xl text-brand-500" vid="22"></i>
+                    </div>
+                    <i class="ph-fill ph-sparkle absolute -top-1 -right-1 text-brand-400 text-sm" vid="23"></i>
+                </div>
+                
+                <div class="flex-1" vid="24">
+                    <h1 class="font-heading font-bold text-2xl sm:text-3xl text-brand-900 tracking-tight mb-1" vid="25">Mayday with Me</h1>
+                    <p class="text-brand-600 text-sm font-light" vid="26">「 我们曾走过无数地方和无尽岁月 」</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="w-full h-px bg-brand-100" vid="27"></div>
+
+        
+        <section class="w-full bg-white border border-brand-100 rounded-3xl p-6 sm:p-8 hover:shadow-sm transition-all duration-300 hover:border-brand-200 hover:bg-brand-50/10" vid="28">
+            <div class="space-y-2 mb-6" vid="29">
+                <h2 class="font-heading font-bold text-xl text-brand-900 flex items-center gap-2" vid="30">
+                    <i class="ph-duotone ph-globe-hemisphere-west text-brand-400 text-2xl" vid="31"></i>
+                    Concert Footprint
+                </h2>
+            </div>
+            
+            <div class="relative w-full aspect-[21/9] rounded-2xl overflow-hidden bg-brand-50 border border-brand-100" vid="33">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=18Po7j4-BpuTpVI65t3oRddNpiKGQfcQ&ehbc=2E312F&noprof=1" class="absolute inset-0 w-full h-full border-0" title="Mayday concert footprint map" loading="lazy"></iframe>
+                
+                <div class="absolute bottom-4 left-4 flex flex-wrap gap-2" vid="91">
+                    <span class="px-3 py-1.5 bg-white/90 backdrop-blur-sm text-brand-700 text-[11px] font-bold rounded-lg border border-brand-200 shadow-sm" vid="92">🌍 17 Cities</span>
+                    <span class="px-3 py-1.5 bg-white/90 backdrop-blur-sm text-brand-700 text-[11px] font-bold rounded-lg border border-brand-200 shadow-sm" vid="93">🖐️ 38 Shows</span>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-full" vid="94">
+
+            <div class="group relative overflow-hidden bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300">
+                <div class="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-30 bg-[url('../pics/mayday.png')] bg-cover bg-center"></div>
+                <div class="relative z-10 px-1 space-y-3">
+                    <span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 37 &amp; 38</span>
+                    <h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Taichung</h3>
+                    <div class="space-y-1.5 text-xs text-brand-600">
+                        <div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Jan 2026 / Dec 2025</span></div>
+                        <div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>洲际棒球场</span></div>
+                        <div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>5525+1·新年快乐版</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300">
+                <div class="px-1 space-y-3">
+                    <span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 35 &amp; 36</span>
+                    <h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Guiyang</h3>
+                    <div class="space-y-1.5 text-xs text-brand-600">
+                        <div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Sep 2025</span></div>
+                        <div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>奥体体育场</span></div>
+                        <div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>5525 / 5525+1回到那一天</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300">
+                <div class="px-1 space-y-3">
+                    <span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 32 &amp; 33 &amp; 34</span>
+                    <h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Shanghai</h3>
+                    <div class="space-y-1.5 text-xs text-brand-600">
+                        <div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Sep 2025</span></div>
+                        <div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>体育场</span></div>
+                        <div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>5525回到那一天</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 29 &amp; 30 &amp; 31</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Beijing</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Aug 2025</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>鸟巢</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>5525 / 5525+1回到那一天</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 27 &amp; 28</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Taipei</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Jun 2025</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>大巨蛋</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>5525 / 5525+1回到那一天</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 25 &amp; 26</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Taoyuan</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Jan 2025 / Dec 2024</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>乐天棒球场</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>5525·新年特别版</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 24</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Hong Kong</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>May 2024</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>中环海滨</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>5525回到那一天</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 22 &amp; 23</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Kaohsiung</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Mar 2024</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>世运主场馆</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>5525回到那一天</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 21</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Paris</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Dec 2023</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>Accor Arena</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>好好好想见到你</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 20</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Berlin</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Dec 2023</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>Verti Music Hall</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>好好好想见到你</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 19</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">London</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Nov 2023</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>The O2</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>好好好想见到你</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 17 &amp; 18</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Beijing</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Jun / May 2023</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>鸟巢</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>诺亚方舟·十年复刻</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 16</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Beijing</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>May 2023</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>鸟巢</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>好好好想见到你</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 14 &amp; 15</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Shanghai</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Nov 2019</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>虹口足球场</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>Just Rock It · 蓝</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 13</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Hong Kong</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>May 2019</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>迪士尼停车场</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>Just Rock It · 蓝</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 11 &amp; 12</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Beijing</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Aug 2018</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>鸟巢</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>人生无限公司·终极</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 10</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Shanghai</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Jul 2018</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>金山体育中心</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>人生无限公司·夏日</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 9</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Shijiazhuang</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Jun 2018</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>奥体体育场</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>人生无限公司</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 8</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Fuzhou</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Oct 2017</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>海峡奥体中心</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>人生无限公司</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 7</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Quanzhou</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Oct 2016</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>海峡奥体中心</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>Just Rock It</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 6</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Nanjing</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Oct 2016</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>奥体体育场</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>Just Rock It</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 5</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Beijing</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Aug 2016</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>鸟巢</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>Just Rock It</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 4</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Shanghai</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Oct 2013</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>徐汇滨江绿地</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>西岸音乐节</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 3</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Xiamen</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Aug 2013</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>体育中心</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>诺亚方舟·明日重生</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 2</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Shenzhen</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Aug 2013</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>春茧</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>诺亚方舟·明日重生</span></div></div></div></div>
+            <div class="group bg-white border border-brand-100 rounded-3xl p-5 hover:bg-brand-50/30 hover:border-brand-200 hover:shadow-sm transition-all duration-300"><div class="px-1 space-y-3"><span class="inline-flex px-2 py-0.5 bg-brand-50 text-[10px] font-bold uppercase tracking-wider text-brand-600 rounded border border-brand-100">No. 1</span><h3 class="font-heading font-bold text-xl text-brand-900 leading-tight">Fuzhou</h3><div class="space-y-1.5 text-xs text-brand-600"><div class="flex items-center gap-1.5"><i class="ph-fill ph-calendar-heart text-brand-400"></i><span>Dec 2012</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-map-pin text-brand-400"></i><span>省体育中心</span></div><div class="flex items-center gap-1.5"><i class="ph-fill ph-music-notes text-brand-400"></i><span>诺亚方舟·末日狂欢</span></div></div></div></div>
+
+        </section>
+
+        <div class="w-full h-px bg-brand-100" vid="212"></div>
+
+        
+        <footer vid="213">
+            <p class="text-xs text-brand-400 font-light flex flex-col sm:flex-row sm:items-center gap-[5px]" vid="214">
+                <span>Last updated: 29 March 2026 © Jingxuan Chen</span>
+                <span class="font-chinese w-full text-left sm:w-auto sm:ml-auto sm:text-right" lang="zh-CN" vid="216">「 少年回头望 笑我还不快跟上 」</span>
+            </p>
+        </footer>
+
+    </main>
+
+
+</body></html>
